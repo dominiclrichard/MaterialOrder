@@ -6,8 +6,8 @@ public class Shingles extends Material {
 	String make;
 	String brand;
 	
-	public Shingles(int squares, int ridge, int edge) {
-		super(squares, ridge, edge);
+	public Shingles(int squares, int ridge, int edge, int valley) {
+		super(squares, ridge, edge, valley);
 		super.type = "Shingles";
 	}
 	

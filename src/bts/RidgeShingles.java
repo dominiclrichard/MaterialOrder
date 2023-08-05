@@ -2,8 +2,8 @@ package bts;
 
 public class RidgeShingles extends Material {
 
-	public RidgeShingles(int squares, int ridge, int edge) {
-		super(squares, ridge, edge);
+	public RidgeShingles(int squares, int ridge, int edge, int valley) {
+		super(squares, ridge, edge, valley);
 		super.type = "Ridge Shingles";
 	}
 
